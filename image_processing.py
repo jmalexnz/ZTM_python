@@ -1,4 +1,5 @@
 from PIL import Image, ImageFilter
+# Look into openCV as well for exploring
 
 def image_playground():
     img = Image.open("./Pokedex/pikachu.jpeg")
@@ -47,5 +48,6 @@ def main():
     '''
     # print(len(sys.argv))
     JPGtoPNGconverter(sys.argv[1], sys.argv[2])
+
 if __name__ == "__main__":
     main()
