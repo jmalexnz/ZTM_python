@@ -4,6 +4,12 @@
 # users overloading servers
 # practice ethical program, check t&c before scraping
 
+# ideally you can avoid having to scrape by using 
+# the website's API
+# Scrapy is a good tool for scraping
+# May want to start looking at databases for storing data
+
+
 # lets get stories the first two pages from hackernews that have over 100 points
 
 import requests
